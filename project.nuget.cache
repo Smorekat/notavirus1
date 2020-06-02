@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4QMnpVDGItd1Jid/kYB/sCIHptqGLmfrUpYw8DQHcPcTVtDGcTYmUWLfcI52fTQffevsM0XddsXEckF6hhP/bw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sprin\\source\\repos\\CodeBruh\\CodeBruh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sprin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

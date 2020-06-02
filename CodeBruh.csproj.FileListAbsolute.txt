@@ -1,0 +1,12 @@
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.exe
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.deps.json
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.runtimeconfig.json
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.runtimeconfig.dev.json
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.dll
+C:\Users\Sprin\source\repos\CodeBruh\bin\Release\netcoreapp3.1\CodeBruh.pdb
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.AssemblyInfoInputs.cache
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.AssemblyInfo.cs
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.csproj.CoreCompileInputs.cache
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.dll
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.pdb
+C:\Users\Sprin\source\repos\CodeBruh\obj\Release\netcoreapp3.1\CodeBruh.genruntimeconfig.cache
