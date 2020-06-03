@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CodeBBruh.exe" version="1.0.0.0" publicKeyToken="5e7f7437f3885075" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CodeBBruh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CodeBBruh.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeBBruh.exe" size="7136">
+      <assemblyIdentity name="CodeBBruh" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LX+Rw8TNj4drubGAGc+3T4leZsouXzLe73jFA3sntYI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CodeBBruh.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-C3I2Q62P\Sprin" issuerKeyHash="a2f09ead9406b312e1b863877ce47c1bd097c4dc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p9BrUla3TGGJL7FiYs3X/WfBdcBFiikGASfxgqEP5zw=</DigestValue></Reference></SignedInfo><SignatureValue>oxWVj/UhKZKuSkhVcXcD/YCt7u0dl4NVQpv90ZhjmhoHgKkhfZlc3bcittSVfZqiqp4WzVixltIqe6cnzqJyIiywG7cgbZ4tAxlwjBdQaFMOvUPPMirhIYOYobMHfCsULEgkQkRWhKv4phu+fPixb94uxxg77Kv19blj02QoARc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xnuTSMhnpJ4nVdXCSFiwSa53PfR3QHVGGIFtOKVtigUlSyD60IErpH/XUNSdl3mOHJ09jEHeKNLJ8KdH/j2NenRnghpcDthbTZ9iyxT38RF5g903XReGR2/FNS0wnYJi7hod0EgMwa9Fx6KPp1D6/6eUJMKEmpRl5aNq4GsN1O0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ce70fa182f1270106298a45c075c167fdd7cd6262b12f89614cb756526bd0a7" Description="" Url=""><as:assemblyIdentity name="CodeBBruh.exe" version="1.0.0.0" publicKeyToken="5e7f7437f3885075" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-C3I2Q62P\Sprin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jD8JxA4Okph+jnz/lPGj99e8p45+qwrstGa76WRTwBg=</DigestValue></Reference></SignedInfo><SignatureValue>xmBA6FM2xJdxL0QjEsE/IAePrxp8ktU/9U9ZoIp+BAg0/b/MM6n8Mv0mh4gp6wjK+RRyYlHjnKk1QVrx3d3Y1uX8R7SXIqTd3hUQC5ejGWIFBynHLVOXlm4Ynxc/I6NBdPiI88KQzaVntGLt87hW5UO/qKdWSBFS1dgBci/HXMQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xnuTSMhnpJ4nVdXCSFiwSa53PfR3QHVGGIFtOKVtigUlSyD60IErpH/XUNSdl3mOHJ09jEHeKNLJ8KdH/j2NenRnghpcDthbTZ9iyxT38RF5g903XReGR2/FNS0wnYJi7hod0EgMwa9Fx6KPp1D6/6eUJMKEmpRl5aNq4GsN1O0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYklq45pvu6RKgeOnE3TtzTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBDADMASQAyAFEANgAyAFAAXABTAHAAcgBpAG4wHhcNMjAwNjAzMDA1MTE0WhcNMjEwNjAzMDY1MTE0WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBDADMASQAyAFEANgAyAFAAXABTAHAAcgBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMZ7k0jIZ6SeJ1XVwkhYsEmudz30d0B1RhiBbTilbYoFJUsg+tCBK6R/11DUnZd5jhydPYxB3ijSyfCnR/49jXp0Z4IaXA7YW02fYssU9/EReYPdN10XhkdvxTUtMJ2CYu4aHdBIDMGvRceij6dQ+v+nlCTChJqUZeWjauBrDdTtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAId+gsAWhK34hOreGaiOdyxswPhanWx7ks4hL1qCL+tQcUU2wpcaC8lPYQJ0FrhMxXa0WuXMN6AdxGCB8s0+57LjJxxkvI7oyJaRm0IV8wBS5hQRUarYaZrPa3YuGVeNmdcDSpWxOFeq5rPBSnvMZbAGZtEcT61lU/wB0g73BlmQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
